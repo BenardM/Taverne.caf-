@@ -35,10 +35,12 @@ h1:hover{
   -webkit-backdrop-filter: blur(5px);
 }
 
+
 .navbar-nav {
     font-size: 12px;
-    font-weight: lighter;
-    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
 }
 
 .mainBody{
