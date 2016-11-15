@@ -44,10 +44,6 @@ h1:hover{
 }
 
 
-.mainBody{
-  background-color:white;
-}
-
 img{
   text-align: center;
 }
@@ -67,13 +63,6 @@ h4 {
   text-align: center;
 }
 
-.streamDiv {
-  display: flex;
-}
-
-.soc{
-  text-align: center;
-}
 
 .introText{
   background-color: white;
@@ -119,7 +108,12 @@ h2 {
 }
 
 iframe{
-    box-shadow: 2px 2px 8px black;
+  transition: 1s;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.7);
+}
+iframe:hover{
+  transition: 1s;
+  box-shadow: 1px 1px 12px red;
 }
 
 .infoRTD{
@@ -127,8 +121,14 @@ iframe{
 }
 
 #desc {
+  transition: 1s;
   margin: 10%;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+  font-size: 30px;
+}
+#desc:hover{
+  transition: 2s;
+  font-size: 31px;
+  text-shadow: 2px 2px 8px black;
 }
