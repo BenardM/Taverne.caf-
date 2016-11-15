@@ -73,3 +73,10 @@ h4 {
 .soc{
   text-align: center;
 }
+
+.introText{
+  background-color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
