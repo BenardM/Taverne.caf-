@@ -7,7 +7,7 @@ body{
 }
 
 h1 {
-  margin-top: 250px;
+  margin-top: 200px;
   transition: 1s;
   font-family: 'Lobster', cursive;
   color: white;
@@ -85,11 +85,14 @@ h4 {
 }
 
 .talkBody{
-  margin-top: 25%;
+  margin-top: 15%;
   color: white;
   background-color:rgba(0, 0, 0, 0.8);
 }
 
 #talkText{
-  margin: 5%;
+  text-align: center;
+  margin: 10%;
+  font-family: 'Text Me One', sans-serif;
+  font-size: 25px;
 }
